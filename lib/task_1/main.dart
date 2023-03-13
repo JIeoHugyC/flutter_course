@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'my_widget.dart';
 
 void main() {
   runApp(const MyApp());
@@ -9,11 +10,9 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Scaffold(
-        body: Text('Replace me')
-      ),
+      home: Scaffold(body: MyWidget()),
     );
   }
 }
