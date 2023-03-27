@@ -13,6 +13,9 @@ dependencies:
   cupertino_icons: ^1.0.2
   googleapis: ^5.0.0
   faker_dart: ^0.1.11
+  http: ^0.13.5
+  geolocator: ^9.0.2
+  geocoding: ^2.1.0
 
 dev_dependencies:
   flutter_test:
